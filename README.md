@@ -1,2 +1,1 @@
-# DSA-CH
-DSA-CH
+DSACH
