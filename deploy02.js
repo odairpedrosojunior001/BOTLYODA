@@ -22,7 +22,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
   // Inserindo mais uma função para responder preço de curso:
   function preco(agent){
+<<<<<<< HEAD
     agent.add('É 100 reais ');
+=======
+    agent.add('É 1000 reais ');
+>>>>>>> 8476117d78e450979a87f530c370d076066c8216
   }
   
   // Run the proper function handler based on the matched Dialogflow intent name:
