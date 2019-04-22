@@ -26,6 +26,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   function preco_curso(agent){
 
     var cursos ={'R':300,'Python':500,'Machine Learning':1000,'Spark':899,'Hadoop':999,'Java':700 };
+    
         if (request.body.queryResult.parameters.curso){
     var nomeCurso = request.body.queryResult.parameters.curso; 
     console.log ('Verificando valor do curso' + nomeCurso); 
